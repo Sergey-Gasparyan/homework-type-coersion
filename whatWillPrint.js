@@ -50,6 +50,54 @@
 // . undefined + 1 // NaN
 
 
+// 6
+
+// null + undefined //NaN
+// null + true // 1
+// null + false // 0
+// null + 3 // 3
+// null + NaN // NaN
+// null + 'hello' // "nullhello" 
+// null + a + b + c + d + e + f
+// undefined + true
+// undefined + false
+// undefined + 5
+// undefined + NaN
+// undefined + 'hello'
+// undefined + a + b + c + d + e + f // NaN
+// true + false // 1
+// true + 2 // 3
+// true + NaN // NaN
+// true + 'hello' // truehello
+// true + a + b + c + d + e + f // NaN
+// false + 4 //4
+// false + NaN //NaN
+// false + 'hello' // falsehello
+// false + a + b + c + d + e + f //NaN
+// 5 + 3 //8
+// 5 + NaN //NaN
+// 5 + 'hello' //5hello
+// 5 + a + b + c + d + e + f /NaN
+// 'hello' + NaN //NaN
+// 'hello' + a + b + c + d + e + f //helloabcdef
+
+
+//-null // -0
+// -undefined // NaN ..............
+// -true //-1
+// -false // -0
+// -5 // -5
+// -'hello' // NaN
+// -'234' //-234
+// -'234.32e3' // -234.32 * 10**3 = -234320
+// -new Number(NaN)
+// -new String('hello')
+// -(/google.com/) // NaN
+// -([]) // -0
+// -([2]) // -2
+// -([2, 3]) //Nan
+// -(function() { }) //NaN
+
 
 
 
