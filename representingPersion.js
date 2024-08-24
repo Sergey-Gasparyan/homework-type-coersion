@@ -29,13 +29,16 @@
 //     month : 8 ,
 //     year : 2024
 // }
+
 // data.toString = function () {
 //     let day = data.day > 10 ? data.day : `0${data.day}`
 //     let month = data.month > 10 ? data.month : `0${data.month}`
 //     return `${day} / ${month} / ${data.year}`
 // }
+
 // data.valueOf = function () {
-//     return Date(100000)
+//     let num = new Date(data.year,data.month,data.day)
+//     let daysAfter1970 = Math.floor(num / 1000 / 60 / 60 / 24) 
 // }
 // console.log(+(data))
 
