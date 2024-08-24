@@ -39,3 +39,34 @@
 // }
 // console.log(+(data))
 
+
+
+
+// 3.4
+// const arrayLikeObj = {
+//     0:"Item1",
+//     1:"Item2",
+//     2:"Item3"
+// }
+
+// arrayLikeObj.toString = function() {
+//     return `${arrayLikeObj[0]},${arrayLikeObj[1]},${arrayLikeObj[2]} `
+// }
+
+
+
+// 3.5
+
+// const bankAcc = {
+//     balance: "1000$",
+//     interestRate: "10%"
+// }
+// let year = 2
+// bankAcc.valueOf = function () {
+//     let balance = bankAcc.balance.slice(0,-1) 
+//     let rate = bankAcc.interestRate.slice(0,-1)
+//     balance = Math.floor(balance * (1 + rate / 100) ** year)
+//     return balance    
+// }
+// console.log(Number(bankAcc))
+
